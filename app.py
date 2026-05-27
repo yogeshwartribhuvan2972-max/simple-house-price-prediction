@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 st.title("House Price Prediction App")
 
 # Load Dataset
-df = pd.read_csv(r"C:\Users\admin\OneDrive\Desktop\UPGRAD\ml\house_prices_multivariate.csv.xls")
+df = pd.read_csv("house_prices_multivariate.csv.xls")
 
 # Show Dataset
 st.subheader("Dataset Preview")
